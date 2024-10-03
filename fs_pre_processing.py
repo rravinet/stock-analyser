@@ -162,7 +162,7 @@ class PreProcessingFinancials:
             return np.nan
         
         
-    def preprocess_financials(self):
+    def preprocess_financials(self, columns):
         """Orchestrates the entire pre-processing of financials."""
         self.flatten_json_section()  
         self.removing_cols() 
@@ -174,7 +174,7 @@ class PreProcessingFinancials:
             data = self.data[ticker]
             
             # Extract general columns from the data
-            general_df = data[GENERAL_COLUMNS].copy()
+            general_df = data[columns].copy()
 
             # If 'filing_date' is not already an index, set it as the index in general_df
             if 'filing_date' in general_df.columns:
