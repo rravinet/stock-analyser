@@ -45,7 +45,7 @@ joblib==1.1.1
 jsonschema==4.9.1
 kiwisolver==1.4.4
 lightgbm==3.3.5
-llvmlite==0.37.0
+llvmlite==0.43.0
 lxml==4.8.0
 MarkupSafe==2.0.1
 matplotlib==3.5.2
