@@ -27,7 +27,6 @@ cloudpickle==2.0.0
 colorama==0.4.4
 cryptography==3.4.7
 cycler==0.11.0
-Cython==0.29.21
 dash==2.18.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
@@ -53,7 +52,7 @@ numpy==1.22.4
 pandas==2.1.4
 plotly==5.12.0
 pytz==2023.3
-scikit-learn==1.0.2
+scikit-learn==1.2.2
 scipy==1.9.1
 seaborn==0.11.2
 six==1.16.0
